@@ -5,6 +5,9 @@ const userSchema = new mongoose.Schema({
     name:{
         type: String,
     },
+    userName:{
+        type: String,
+    },
     mobileNumber:{
         type: Number,
     },
